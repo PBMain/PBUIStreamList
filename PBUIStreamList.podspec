@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PBUIStreamList'
-  s.version          = '1.5.3.1'
+  s.version          = '1.5.3.2'
   s.summary          = 'Pod used to show Stream List in Photo Butler apps.'
 
   s.description      = <<-DESC
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/PBMain/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'danspencer@photobutler.com' => 'danspencer@photobutler.com' }
-  s.source           = { :git => 'https://github.com/drewsp/PBUIStreamList.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/PBMain/PBUIStreamList.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
   s.platform = :ios, '10.0'
