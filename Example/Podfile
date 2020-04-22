@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PBUIStreamList_Example' do
+  pod 'PBUIStreamList', :path => '../'
+
+  target 'PBUIStreamList_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

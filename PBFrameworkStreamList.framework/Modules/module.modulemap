@@ -1,0 +1,6 @@
+framework module PBFrameworkStreamList {
+  umbrella header "PBFrameworkStreamList.h"
+
+  export *
+  module * { export * }
+}
