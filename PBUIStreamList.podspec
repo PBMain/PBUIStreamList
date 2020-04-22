@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PBUIStreamList'
-  s.version          = '1.5.3.2'
+  s.version          = '1.5.3.3'
   s.summary          = 'Pod used to show Stream List in Photo Butler apps.'
 
   s.description      = <<-DESC
