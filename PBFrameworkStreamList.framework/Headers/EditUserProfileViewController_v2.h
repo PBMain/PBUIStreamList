@@ -6,14 +6,14 @@
 @interface EditUserProfileViewController_v2 : UIViewController <UITextFieldDelegate, CustomStreamCoverMenuDelegate, SelfieCropperEditDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *lblFirstName;
 @property (weak, nonatomic) IBOutlet UILabel *lblLastName;
-@property (weak, nonatomic) IBOutlet UITextField *tfFirstName;
-@property (weak, nonatomic) IBOutlet UITextField *tfLastName;
+@property (strong, nonatomic) UITextField *tfFirstName;
+@property (strong, nonatomic) UITextField *tfLastName;
 @property (weak, nonatomic) IBOutlet UITextField *tfPhone;
 @property (weak, nonatomic) IBOutlet UITextField *tfEmail;
 @property (weak, nonatomic) IBOutlet UITextField *tfBirthday;
 @property (weak, nonatomic) IBOutlet UIButton *btnBack;
 @property (weak, nonatomic) IBOutlet UIButton *btnAboutAndSettings;
-@property (weak, nonatomic) IBOutlet UIImageView *topImg;
+@property (strong, nonatomic) UIImageView *topImg;
 @property (strong, nonatomic) IBOutletCollection(UIImageView) NSArray *iconsToColor;
 @property (weak, nonatomic) IBOutlet UIView *viewImageHeader;
 @property (weak, nonatomic) IBOutlet UIImageView *imgPencil;

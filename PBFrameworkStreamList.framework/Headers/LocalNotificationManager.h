@@ -26,7 +26,6 @@ typedef void (^simpleBlock)(void);
 +(void) sendTestPushNotification;
 // Specifically send upload note
 +(BOOL) sendPhotoUploadNote;
-+(BOOL) sendStreamEndedNote;
 
 // Notification for nearby public stream
 +(void) notifyPublicStreamNearby:(NSString*)streamID streamName:(NSString*)streamName;

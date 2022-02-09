@@ -21,8 +21,6 @@
 @property (nonatomic) float cellSize;
 @property (nonatomic) BOOL clickOnce;
 @property (nonatomic) BOOL loadOnDisplay;
-@property (nonatomic) BOOL shouldRefreshInBackground;
-@property (nonatomic) BOOL shouldRefreshInForeground;
 @property (nonatomic) LoadingView *loadingView;
 
 @property (nonatomic) UICollectionView *horizontalScrollingPhotoStreamGrid;

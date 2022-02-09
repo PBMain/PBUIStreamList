@@ -61,4 +61,7 @@
 @property (nonatomic) BOOL backIsLocked;
 @property (nonatomic) BOOL dismissIsLocked;
 
+// For showing tutorial from menu
+- (void) showStreamTutorial;
+
 @end

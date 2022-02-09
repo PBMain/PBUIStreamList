@@ -25,11 +25,7 @@
 @property (nonatomic) BOOL isSetting;
 @property (nonatomic) BOOL displayingMoreIdentify;
 @property (nonatomic) BOOL displayingMoreNamed;
-@property (nonatomic) BOOL shouldRefreshInBackground;
-@property (nonatomic) BOOL shouldRefreshInForeground;
 @property (nonatomic) UIAlertController *alertController;
-
--(void)getImagePeople;
 
 // Changing grid size from scrolling
 @property (nonatomic) BOOL didLayout;

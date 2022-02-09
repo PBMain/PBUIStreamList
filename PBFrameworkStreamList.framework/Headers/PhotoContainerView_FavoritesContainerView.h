@@ -21,8 +21,6 @@
 @property (nonatomic) NSString *friendId;
 @property (nonatomic) LoadingView *lv;
 @property (nonatomic) BOOL isLoading;
-@property (nonatomic) BOOL shouldRefreshInBackground;
-@property (nonatomic) BOOL shouldRefreshInForeground;
 
 // Changing grid size from scrolling
 @property (nonatomic) BOOL didLayout;
@@ -35,7 +33,6 @@
 @property (atomic) NSRecursiveLock *slowScrollingLock;
 
 -(void) removeImages:(NSMutableArray*)imgArray;
--(void) getImagesFromServices;
 -(void) setImageFavorite:(NSString*)assetId isFavorite:(BOOL)isFavoritePhoto;
 
 @end

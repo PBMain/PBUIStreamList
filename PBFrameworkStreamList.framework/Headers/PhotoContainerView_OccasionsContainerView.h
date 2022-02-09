@@ -18,10 +18,6 @@
 @property (nonatomic) NSMutableArray* occasions;
 @property (nonatomic) NSMutableArray* birthdays;
 @property (nonatomic) UIImageView *backgroundImage;
-@property (nonatomic) BOOL shouldRefreshInBackground;
-@property (nonatomic) BOOL shouldRefreshInForeground;
-
--(void)getImageOccasions;
 
 // Changing grid size from scrolling
 @property (nonatomic) BOOL didLayout;

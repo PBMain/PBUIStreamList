@@ -12,6 +12,7 @@
 - (void)openNewStream:(UIView*)caller;
 - (void)openCodeEntry:(UIView*)caller;
 - (void)cancelStream:(UIView*)caller;
+- (void)openTutorialView:(UIView*)caller;
 @end
 
 @interface StartStreamOptions : UIView
@@ -27,6 +28,12 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *createImageView;
 @property (weak, nonatomic) IBOutlet UIImageView *joinImageView;
+
+// For optionally showing the tutorial button
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *constraintButtonContainerHeight;
+@property (weak, nonatomic) IBOutlet UIView *viewTutorialButton;
+@property (weak, nonatomic) IBOutlet UIButton *btnTutorial;
+@property (weak, nonatomic) IBOutlet UIImageView *imgTutorial;
 
 - (IBAction)createNewStreamPressed:(UIButton *)sender;
 - (IBAction)joinExistingStreamPressed:(UIButton *)sender;

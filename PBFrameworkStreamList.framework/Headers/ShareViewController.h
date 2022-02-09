@@ -86,9 +86,6 @@
 
 @property (nonatomic) BOOL profilePicLoaded;
 
-@property (nonatomic) BOOL shouldRefreshInBackground;
-@property (nonatomic) BOOL shouldRefreshInForeground;
-
 @property (nonatomic) NSMutableDictionary* hashRecipients;
 @property (nonatomic) IBOutlet UIButton *btnHeaderStreamCode;
 @property (nonatomic) float cellSize;
@@ -111,8 +108,6 @@
 // New Tab var view
 @property (nonatomic,retain) IBOutlet UIView *viewNewTabbar;
 
--(void) getImageTimelines;
--(void) getImageTimelinesIfChanged;
 -(void) addImageDetailView:(NSMutableArray*) filenames selected:(NSDictionary*)selectedImage locationName:(NSString*)location subtitle:(NSString*)subtitle shouldUnhideToolbarOnExit:(BOOL)shouldUnhideToolbarOnExit albumId:(NSString*)albumId albumName:(NSString*)albumName;
 -(void) addEditPeopleUserData : (UITapGestureRecognizer *)sender;
 //-(IBAction)pressEditProfile:(id)sender;
@@ -135,7 +130,6 @@
 -(void) setFavoriteWithID:(NSString*) psid isFavorite:(BOOL)isFavorite;
 -(BOOL)isFirstTimeHosting;
 -(void)removeLoadingIfReady;
-- (void)getImageTimelinesFromDB;
 -(void) refreshLiveStreamsFromDB;
 // Loading view
 -(void) hideLoading;

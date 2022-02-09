@@ -21,9 +21,6 @@
 @property (nonatomic) NSString *friendId;
 @property (nonatomic) LoadingView *lv;
 @property (nonatomic) BOOL isLoading;
-@property (nonatomic) BOOL shouldRefreshInBackground;
-@property (nonatomic) BOOL shouldRefreshInForeground;
--(void)getImageTimelines;
 
 // Changing grid size from scrolling
 @property (nonatomic) BOOL didLayout;

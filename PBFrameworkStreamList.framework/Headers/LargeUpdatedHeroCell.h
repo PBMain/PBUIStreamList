@@ -27,6 +27,9 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *lcSharedLabelLeft;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *lcSeparatorDotWidth;
 
+@property (weak, nonatomic) IBOutlet UIView *viewCoverContainer;
+@property (nonatomic) NSString *coverCacheIdentifier;
+
 @property (nonatomic) int peopleViewed;
 @property (nonatomic) int peopleInvited;
 
